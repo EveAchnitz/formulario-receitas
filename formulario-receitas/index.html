@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fromulário Receitas</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h3>Inscreva sua receita</h3>
+
+        <label for="receita">Nome da receita:</label>
+        <input type="text" name="receita" required>
+
+        <label for="categoria">Categoria:</label>
+        <select name="categoria" required>
+            <option value="">Selecione...</option>
+            <option value="aperitivo">Aperitivo</option>
+            <option value="entrada">Entrada</option>
+            <option value="prato">Prato Principal</option>
+            <option value="sobremesa">Sobremesa</option>
+        </select>
+
+        <label for="ingredientes">Ingredientes:</label>
+        <textarea name="ingredientes" required rows="8" cols="25" maxlength="100"></textarea><br>
+        
+        <label for="preparo">Modo de preparo:</label>
+        <textarea name="preparo" required rows="8" cols="25" maxlength="100"></textarea><br>
+
+        <label for="tempo">Tempo de preparo:</label>
+        <input type="time" required><br>
+
+        <label for="dificuldade">Dificuldade:</label>
+        <input class="emlinha" type="radio" name="dificuldade" id="facil">
+        <label class="emlinha" for="facil">Fácil</label>
+        <input class="emlinha" type="radio" name="dificuldade" id="media">
+        <label class="emlinha" for="media">Média</label>
+        <input class="emlinha" type="radio" name="dificuldade" id="dificil">
+        <label class="emlinha" for="dificil">Difícil</label>
+        <br><br>
+
+        <label for="foto">Foto da receita:</label>
+        <input type="file" required><br>
+
+        <label for="nome">Seu nome:</label>
+        <input type="text" required><br>
+
+        <label for="email">Email de contato:</label>
+        <input type="text" required><br>
+
+        <label for="comentarios">Comentários adicionais:</label>
+        <textarea name="comentarios" required rows="8" cols="25" maxlength="100"></textarea>
+
+        <input type="submit" name="enviar" value="Enviar" id="enviar">
+        
+    </form>
+    
+</body>
+</html>
