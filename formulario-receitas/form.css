@@ -12,7 +12,7 @@ label, input, select, textarea{
  form{
     width: 550px;
     margin: auto;
-    background-color:#f4e0fc;
+    background-color:#fce0e0;
     padding: 40px;
     border-radius: 10px;
  }
@@ -39,33 +39,34 @@ label, input, select, textarea{
 }
 input:focus, select:focus, textarea:focus{
    outline: none;
-   border: solid 2px #670077;
+   border: solid 2px #770000;
 }
  #enviar{
    width: 100%;
-   border: 2px solid #c186d1;
-   background-color:#f0caff;
-   color: #6f028d;
+   border: 2px solid #d18686;
+   background-color:#ffcaca;
+   color: #8d0202;
    font-weight: bold;
    cursor: pointer;
    padding: 15px;
  }
  #enviar:hover{
-  background-color: #952cbfd1;
-  color: #f2c5ff;
+  background-color: #bf2c2cd1;
+  color: #ffc5c5;
   transition:all linear 0.3;
  }
 
 h1{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   color: #670077;
+   color: #770000;
    text-align: center;
 }
 
 h3{
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #770000;
 }
 
 input[type="file"]{
-    border:solid 1px #670077;
+    border:solid 1px #770000;
 }
